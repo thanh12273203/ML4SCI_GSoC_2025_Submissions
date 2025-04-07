@@ -1,0 +1,19 @@
+# Ignore everything in the data folder
+data/*
+!data/.gitkeep
+
+# Ignore all checkpoint files in the model_checkpoints folder
+model-checkpoints/*checkpoint.pt
+
+# Ignore the entire QMLHEP folder
+QMLHEP/
+
+# Ignore Python cache directories
+__pycache__/
+
+# Optional
+# *.pyc
+# *.pyo
+# .DS_Store
+# .env
+# .vscode
